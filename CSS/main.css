@@ -1,0 +1,157 @@
+main {
+    background-color: rgb(97, 188, 199);
+    border-style: groove;
+    margin:20pt;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 5pt;
+}
+header h1{
+    margin-top: 0px;
+}
+.header_banner{
+    background-image: url("../img/background.jpg");
+    background-size: 100% 200px;
+    margin-top: 0px;
+}
+.header_banner p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+    padding-left: 20pt;
+}
+.btn{
+    margin: 20pt;
+    align-self: flex-end;
+    min-width: 200pt;
+}
+
+h3 {
+    font-size: larger;
+}
+img {
+    height: 300pt;
+    width: 420pt;
+    margin: 10pt;
+    align-self: center;
+}
+.module h3{
+    text-align: center;
+}
+
+.module {
+    background-color: rgb(147, 229, 240);
+    
+    border-radius: 10px;
+    width: 20vw;
+    min-height: 300px;
+
+    border-style: dotted;
+    margin:10pt;
+    padding: 10pt;
+    display: flex;
+    flex-direction: column;
+}
+.second.module{
+    background-color: rgb(193, 235, 137);
+}
+.third.module{
+    background-color: rgb(218, 162, 196);
+}
+.four.module{
+    background-color: rgb(243, 206, 42);
+}
+
+
+.module_container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section{
+    padding: 10pt;
+}
+
+.vkr{
+    margin: 10pt;
+    border-radius: 10px;
+    border-style: dotted;
+    background-color: rgba(255, 127, 80, 0.705);
+}
+@media (max-width : 1750px) {
+    .module{
+        background-color: rgb(235, 226, 145);
+        border-radius: 10px;
+        min-width: 500px;
+        min-height: 400px;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width : 1200px) {
+    .module{
+        background-color: rgb(235, 226, 145);
+        border-radius: 10px;
+        min-width: 500px;
+        min-height: 400px;
+        flex-basis: 80%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+    nav a{
+        
+    }
+}
+@media (max-width : 900px) {
+    .module{
+        background-color: rgb(235, 226, 145);
+        border-radius: 10px;
+        min-width: 350px;
+        min-height: 400px;
+        flex-basis: 90%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width : 600px) {
+    header{
+        text-align: center;
+    }
+    .module{
+        background-color: rgb(235, 226, 145);
+        border-radius: 10px;
+        min-width: 240px;
+        min-height: 400px;
+        flex-basis: 90%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+    .vkr{
+        font-size: larger;
+    }
+    img {
+        border-radius:50%;
+        height:70pt;
+        width: 75pt;
+        margin: 5pt;
+        align-self: center;
+    }
+    main{
+        border-style:dotted;
+        margin:0pt;
+    }
+}
+ 
