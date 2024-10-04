@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="CSS/main.css" rel="stylesheet">
+    <link href ="CSS/bootstrap.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моллы Иркутска</title>
 </head>
@@ -11,17 +12,18 @@
     <div class = "header_banner">
         <p>Популярные моллы Иркутска</p>
         <nav>
-            <a href = "#silver">Сильвер Молл</a>
-            <a href = "#Yarko">Яркомолл</a>
-            <a href = "#modniy">Модный квартал</a>
-            <a href = "#New">МТЦ Новый</a>
+            <a href = "#silver" class = "btn btn-success">Сильвер Молл</a>
+            <a href = "#Yarko" class = "btn btn-success">Яркомолл</a>
+            <a href = "#modniy" class = "btn btn-success">Модный квартал</a>
+            <a href = "#New" class = "btn btn-success">МТЦ Новый</a>
         </nav>
     </div>
     <main>
         <section class = "containers">
             <section class ="first_module" id = "silver">
                 <h2>Сильвер молл</h2>
-                <img src = "img/silver.png" alt = "Внешний вид Сильвер молла">
+                <img src = "img/silver.jpg"  class ="rounded img-fluid" alt = "Внешний вид Сильвер молла">
+                <img src = "img/silver_inside.jpg"  class ="rounded img-fluid" alt = "Сильвер молл изнутри">
                 <p> «СИЛЬВЕРмолл» — крупнейший торгово-развлекательный центр 
                 Восточной Сибири открывает свои двери, 
                 приглашая всех желающих отдохнуть с комфортом.
@@ -60,7 +62,8 @@
 
             <section class = "second_module" id = "Yarko">
                 <h2>Яркомолл</h2>
-                <img src = "img/yarko.jpg" alt = "Внешний вид Яркомолла">
+                <img src = "img/yarko.jpg" class ="rounded img-fluid" alt = "Внешний вид Яркомолла">
+                <img src = "img/yarko_inside.jpg" class ="rounded img-fluid" alt = "Яркомолл изнутри">
                 <p>ТРЦ «ЯркоМолл» - современный торгово- развлекательный центр европейского уровня, 
                 общей площадью более 75 000 кв м.
                 </p>
@@ -90,7 +93,8 @@
 
             <section class = "third_module" id = "modniy">
                 <h2>Модный квартал</h2>
-                <img src = "img/modniy.jpg" alt = "Внешний вид Модного Квартала">
+                <img src = "img/modniy.jpg" class ="rounded img-fluid" alt = "Внешний вид Модного Квартала">
+                <img src = "img/modniy_inside.jpg" class ="rounded img-fluid" alt = "Модный кварталл изнутри">
                 <p>Торгово-развлекательный комплекс «Модный Квартал» в Иркутске —
                     место комфортного шопинга и отдыха для каждого посетителя.
                 </p>
@@ -116,7 +120,8 @@
             </section>
             <section class = "fourth_module" id = "New">
                 <h2>МТЦ Новый</h2>
-                <img src = "img/New_MTC.png" alt = "Внешний вид МТЦ Новый">
+                <img src = "img/New_MTC.png" class ="rounded img-fluid" alt = "Внешний вид МТЦ Новый">
+                <img src = "img/New_inside.png" class ="rounded img-fluid" alt = "МТЦ Новый изнутри">
                 <p>МТЦ «Новый» – это многофункциональный торгово-досуговый центр Иркутска 
                     площадью более 62 тысяч квадратных метров. МТЦ «Новый» представляет собой трехуровневый 
                     комплекс с более чем 60 магазинами одежды, обуви и аксессуаров, а также современным мультиплексом 
@@ -158,9 +163,14 @@
             </section>
             </section>
     </main>
-    <footer>
-        <p> Андреев Дмитрий группа ЭВМб-23-1</p>
-        <a href = "https://t.me/dacondor">Телеграмм создателя сайта</a>
+    <footer class="py-3 my_footer">
+        <nav>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="https://t.me/dacondor" class="nav-link px-2 text-muted">Телеграмм создателя сайта</a>
+            </li>
+        </ul>
+        </nav>
+          <p class="text-center text-muted">Андреев Дмитрий группа ЭВМб-23-1</p>
     </footer>
 </body>
 </html>
