@@ -1,0 +1,35 @@
+main {
+    background-color: rgb(97, 188, 199);
+    border-style: groove;
+}
+.header_banner{
+    background-image: linear-gradient(to left, rgba(17, 124, 190, 0.397), rgba(56, 218, 156, 0.49));
+}
+.header_banner p{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.map_location{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+img{
+    max-height: 452px;
+    max-height: 225px;
+    object-fit: fill;
+}
+
+
+.my_footer{
+    background-image: linear-gradient(to left, rgba(17, 124, 190, 0.397), rgba(56, 218, 156, 0.49));
+}
