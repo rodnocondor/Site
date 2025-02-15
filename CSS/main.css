@@ -16,6 +16,7 @@ main {
     padding-bottom: 30px;
 }
 
+
 .containers {
     display: flex;
     flex-wrap: wrap;
@@ -24,8 +25,10 @@ main {
 }
 
 img{
-    max-height: 452px;
-    max-height: 225px;
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    max-height: 60%;
     object-fit: fill;
 }
 
